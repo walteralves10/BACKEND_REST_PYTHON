@@ -1,10 +1,10 @@
   
-Objetivo
+OBJETIVO
 
 Foi feito uma API simples de trocas de mensagens com diferentes canais. Parecido com o slack
 
 
-instalação 
+INSTALAÇÃO
 
 
 Utilização S.O: Windows 10
@@ -22,7 +22,7 @@ pip install uvicorn
 só é precisoo instalar uma unica vez
 
 
-compilar API
+COMPILAR API
 
 
 uvicorn index:app --reload
@@ -32,7 +32,7 @@ index -> nome da classe inicial, padrão.
 app -> nome da variavel que recebe a biblioteca/framework FastAPI
 
 
-caso der erro na compilação, tente instalar essas bibliotecas (não me lembro se instalei):
+CASO DER ERRO na compilação, tente instalar essas bibliotecas (não me lembro se instalei):
 
 pydantic ou BaseModel
 
@@ -41,7 +41,7 @@ ObjectId
 O intuito foi desenvolver uma API com código limpo. 
 
 
-locais de estudo:
+LOCAIS DE ESTUDO:
 
 
 https://fastapi.tiangolo.com/pt/ -> Documentação
